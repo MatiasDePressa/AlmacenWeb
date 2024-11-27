@@ -71,26 +71,9 @@ El proyecto se conecta a una base de datos SQLite3 llamada `AlmacenWeb.db`. Si l
 - **`mostrar_url(event)`**: Muestra la URL del registro seleccionado en el Treeview en el campo de texto correspondiente para URL seleccionada.
 - **`eliminar_dato()`**: Elimina el registro seleccionado en el Treeview de la tabla `paginas`.
 
-### Interfaz Gráfica de Usuario (GUI)
-
-La interfaz gráfica se ha diseñado utilizando Tkinter. Incluye los siguientes componentes:
-
-- **Entradas de Texto**: Para el nombre, descripción y URL de la página.
-- **Botones**: Para almacenar datos y eliminar registros.
-- **Treeview**: Para mostrar los registros almacenados en la base de datos.
-- **Estilos**: Se ha aplicado un tema oscuro y se han configurado estilos personalizados para los widgets.
-
 ### Eventos
 
 - **Doble Clic en Treeview**: Al hacer doble clic en una fila del Treeview, se ejecuta la función `mostrar_url` para mostrar la URL seleccionada en el campo de texto.
-
-### Ejecución de la Aplicación
-
-La aplicación se ejecuta llamando a la función `mainloop` de Tkinter, que inicia el bucle principal de la interfaz gráfica. Al finalizar la aplicación, se cierra la conexión a la base de datos con `conn.close()`.
-
-## Capturas de Pantalla
-
-*(Inserta aquí algunas capturas de pantalla de la aplicación en funcionamiento)*
 
 ## Contribuciones
 
